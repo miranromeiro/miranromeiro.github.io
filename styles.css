@@ -42,18 +42,31 @@ header {
   color: #333;
 }
 
-.cta {
-  display: inline-block;
-  padding: 0.9rem 2rem;
-  background: #1E3650;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s ease;
+.hero-form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
-.cta:hover {
+.hero-form input {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.hero-form button {
+  padding: 0.8rem 1.2rem;
+  background: #1E3650;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-form button:hover {
   background: #2a4a72;
 }
 
